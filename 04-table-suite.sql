@@ -77,6 +77,7 @@ ALTER TABLE article ADD COLUMN img TEXT
 -- léger (facile à installer) par rapport à MySQL MariaDB 
 -- très utilisé dans le monde ds app des smartphones
 -- familiser sur le fait que version de SQL par SGBD 
+-- le SQL de Sqlite est très proche du SQL MySQL MariaDB 
 
 
 /*
