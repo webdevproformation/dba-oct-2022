@@ -44,3 +44,5 @@ SELECT nom , depenses
 FROM a 
 LEFT JOIN b
 ON a.id = b.fk_a_id ;
+
+-- https://forms.gle/h5va1YoiPPAJ1xWJ6
