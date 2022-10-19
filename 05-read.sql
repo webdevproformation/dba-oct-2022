@@ -130,3 +130,5 @@ WHERE LOWER(localisation) = "paris" ;
 SELECT * 
 FROM salle 
 WHERE STRFTIME("%m" , dt_creation) = "01" ;
+
+
