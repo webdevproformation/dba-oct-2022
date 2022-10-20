@@ -88,3 +88,20 @@ LEFT JOIN reservation AS r
 ON r.fk_id_utilisateur = u.id 
 LEFT JOIN salle AS s 
 ON s.id = r.fk_id_salle ;
+
+-- A base de données => migrer cette base de données vers un autre ordinateur B 
+
+
+-- ?? SGBD ??? 
+-- avoir le même SGBD sur les deux ordinateurs 
+
+
+-- DUMP => fichier qui contient l'ensemble des requêtes SQL CREATE TABLE + INSERER des données 
+-- depuis la machine A 
+
+-- transfert vers l'autre machine B => prendre le fichier exécute 
+
+-- MySQL 
+-- Moteur de base de données 
+-- ENGINE=InnoDB ***** (base de données avec relations)
+-- ENGINE=MyISAM ***** (base de données monotable) 
